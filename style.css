@@ -41,6 +41,7 @@ span{
     width: 250px;
     border-radius: 8px;
 background: rgba(11, 2, 35, 0.10);
+align-items: center;
 }
 .nav-icone h4{
     color: #3C354F;
@@ -82,7 +83,7 @@ flex-shrink: 0;
     font-size: 95px;
     font-weight: 800;
     text-transform: uppercase;
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background: linear-gradient(180deg, #48b2f9 0%, #098672 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -149,7 +150,6 @@ margin-bottom: 0;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 10px;
-    
 }
 .card{
     margin-left: 30px;
@@ -166,3 +166,35 @@ margin-bottom: 0;
    font-size: 20px;
    font-weight: 500;
 }
+/* end online games ---------------*/
+.games-all-btn{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 0;
+}
+
+.img-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: 1px solid;
+    padding: 10px;
+}
+.pera-btn{
+    color: #0B0223;
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+}
+.img-btn:hover{
+    border: 1px solid#FF42A5;
+     background: #fdfafa;
+}
+.pera-btn:hover{
+    color: #FF42A5;
+}
+/* end hover button-------------*/
