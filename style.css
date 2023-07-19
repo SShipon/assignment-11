@@ -130,6 +130,7 @@ margin-bottom: 0;
 /*end header--------------*/
 .online-main-part{
     background-color: #FFFFFF;
+    margin-top: 50px;
 }
 .online-main-part h2{
     color: #0B0223;
@@ -167,6 +168,43 @@ margin-bottom: 0;
    font-weight: 500;
 }
 /* end online games ---------------*/
+.play-games-div{
+    display: flex;
+}
+.play-games-div .img1{
+    width: 550px;
+   border-radius: 8px;
+   position: absolute;
+   padding: 50px;
+}
+.play-games-div .img2{
+    border-radius: 8px;
+    border: 10px solid #FFF;
+    position: relative;
+   padding-left: 400px;
+   padding-top: 340px;
+}
+.play-games-text{
+    margin-top: 20%;
+    padding: 18px;
+}
+.play-games-text .play-h1{
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+}
+span2{
+    color: #FF42A5;
+}
+.play-p{
+    color: #534C64;
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; 
+
+}
+/*play-onlin-games------------*/
 .games-all-btn{
     display: flex;
     flex-wrap: wrap;
